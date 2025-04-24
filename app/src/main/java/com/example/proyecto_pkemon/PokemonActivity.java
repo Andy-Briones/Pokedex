@@ -101,7 +101,7 @@ public class PokemonActivity extends AppCompatActivity {
         rvPokemon.setAdapter(adapter);
 
         //Scroll Listener permite detectar cuando el usuario hace scroll y llega al final de la lista
-        //para cargar mas datos
+        //para cargar mas datoss
         rvPokemon.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
